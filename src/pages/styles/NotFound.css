@@ -1,0 +1,13 @@
+.NotFound{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.NotFound__img{
+    width: 100%;
+}
+.NotFound h1{
+    font-size: 2.6rem;
+    text-align: center;
+}
