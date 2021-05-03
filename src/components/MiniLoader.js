@@ -2,16 +2,10 @@ import React from 'react';
 
 import './styles/Loader.css';
 
-class MiniLoader extends React.Component{
+class Loader extends React.Component{
     render(){
         return(
             <div className="lds-grid">
-                <div />
-                <div />
-                <div />
-                <div />
-                <div />
-                <div />
                 <div />
                 <div />
                 <div />
@@ -20,4 +14,4 @@ class MiniLoader extends React.Component{
     }
 }
 
-export default MiniLoader;
+export default Loader;

@@ -2,12 +2,16 @@ import React from "react";
 import './styles/BadgesList.css';
 import {FaTwitter} from 'react-icons/fa';
 import { Link } from "react-router-dom";
+import Gravatar from "./Gravatar";
 
 class BadgesListItem extends React.Component{
     render(){
         return(
             <div className="BadgesListItem">
-                <img className="BadgesListItem__avatar" src={this.props.badges.avatarUrl} alt={`${this.props.badges.firstName} ${this.props.badges.lastName}`}/>
+                <Gravatar 
+                className="BadgesListItem__avatar" 
+                email={this.props.badges.email} 
+                alt={`${this.props.badges.firstName} ${this.props.badges.lastName}`}/>
 
                 <div>
                     <strong>
@@ -35,10 +39,12 @@ class BadgesList extends React.Component{
         }
         return(
             <ul className="list-unstyled">
-                {this.props.badges.map((badges) =>{
+                {this.props.badges.map((badge) =>{
                     return(
-                      <li key={badges.id}>
-                          <BadgesListItem badges={badges} />
+                      <li key={badge.id}>
+                          <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}`}> 
+                            <BadgesListItem badges={badge} />
+                          </Link>                       
                       </li>
                     )
                 })}

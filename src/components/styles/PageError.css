@@ -1,0 +1,21 @@
+.PageError {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .page-error{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .page-error img{
+    width: 100%;
+  }
+  .page-error h1{
+    font-size: 2.6rem;
+    text-align: center;
+  }

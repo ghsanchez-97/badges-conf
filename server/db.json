@@ -2,7 +2,7 @@
   "badges": [
     {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
-      "firstName": "Freda",
+      "firstName": "Frida",
       "lastName": "Grady",
       "email": "Leann_Berge@gmail.com",
       "jobTitle": "Legacy Brand Director",
@@ -440,6 +440,30 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Madisson",
+      "lastName": "Sánchez",
+      "email": "madisanchez22@hotmail.com",
+      "jobTitle": "Backend JavaScript",
+      "twitter": "mhsanchez-22",
+      "id": "4bTh34D"
+    },
+    {
+      "firstName": "Inty",
+      "lastName": "Sánchez",
+      "email": "inty_sanchez.gra@hotmail.com",
+      "jobTitle": "Server Data",
+      "twitter": "ibsanchz",
+      "id": "TZ1IsME"
+    },
+    {
+      "firstName": "Guy ",
+      "lastName": "Sánchez",
+      "email": "anakin25@live.com",
+      "jobTitle": "Frontend React and Angular",
+      "twitter": "ghsanchez-97",
+      "id": "veCbi_I"
     }
   ]
 }
